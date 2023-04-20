@@ -1,4 +1,6 @@
-h1{
+
+.squadre{
     background-color: rgb(255, 238, 183);
+    border-radius: 10px 10px 10px 10px;
     text-align: center;
 }
