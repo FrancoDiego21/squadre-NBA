@@ -1,3 +1,7 @@
-<h1>Squadre NBA</h1>
+<h1 class = "titolo">Squadre NBA</h1>
 <br>
+<div class="button">
+    <button (click)="sort()">Ordina</button>
+</div>
+
 <app-teams *ngFor="let squadra of teams" [teams] = "squadra"></app-teams>

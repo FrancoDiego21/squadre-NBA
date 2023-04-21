@@ -23,4 +23,8 @@ export class AppComponent {
     this.oServiceResponse.subscribe(d => {this.teams = d.data;});
   }
 
+  sort() {
+    this.teams = this.teams.sort((a, b) => a.conference.localeCompare(b.conference) || a.division.localeCompare(b.division));
+  }
+
 }
